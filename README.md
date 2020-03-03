@@ -23,7 +23,7 @@ Your program should accept two cmdline arguments: First argument is the text to 
 The second argument is an OPTIONAL directory of .dotm files to scan.  If this argument is omitted,
 the default path to search is the current directory.  NOTE that the optional directory `--dir [dotm-path]` actually includes two arguments (the option flag, and its value) but we are counting them as one combined argument key-value pair.
 ```
-python dotm_search.py --dir ./dotm_files "$" 
+python dotm_search.py --dir ./dotm_files 
 python dotm_search.py "other text"
 ```
 
